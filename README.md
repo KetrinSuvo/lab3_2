@@ -13,6 +13,12 @@
 
 Результаты работы представить на github.com
 
-Репозитарий разработчика
-
+Репозитарий разработчика А
 git://git.kernel.org/pub/scm/utils/util-linux/util-linux.git
+Добавила файл Proverka_raboti
+______________________________________________________
+
+Репозиторий разработчиков пакета В
+http://packages.ubuntu.com/precise/utils/util-linux
+
+
