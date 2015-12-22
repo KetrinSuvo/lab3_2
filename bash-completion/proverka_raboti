@@ -1,0 +1,494 @@
+[    0.974147] microcode: CPU1: patch_level=0x06000626
+[    0.974158] microcode: CPU2: patch_level=0x06000626
+[    0.974168] microcode: CPU3: patch_level=0x06000626
+[    0.974225] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+[    0.974229] LVT offset 0 assigned for vector 0x400
+[    0.974243] perf: AMD IBS detected (0x000000ff)
+[    0.974268] Scanning for low memory corruption every 60 seconds
+[    0.974639] futex hash table entries: 2048 (order: 5, 131072 bytes)
+[    0.974663] Initialise system trusted keyring
+[    0.974680] audit: initializing netlink subsys (disabled)
+[    0.974693] audit: type=2000 audit(1450817664.864:1): initialized
+[    0.975020] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[    0.976843] zpool: loaded
+[    0.976845] zbud: loaded
+[    0.977001] VFS: Disk quotas dquot_6.5.2
+[    0.977039] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.977567] fuse init (API version 7.23)
+[    0.977658] msgmni has been set to 32768
+[    0.977718] Key type big_key registered
+[    0.978153] Key type asymmetric registered
+[    0.978156] Asymmetric key parser 'x509' registered
+[    0.978195] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    0.978248] io scheduler noop registered
+[    0.978251] io scheduler deadline registered (default)
+[    0.978304] io scheduler cfq registered
+[    0.978859] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    0.978876] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[    0.978926] vesafb: mode is 1920x1080x32, linelength=7680, pages=0
+[    0.978927] vesafb: scrolling: redraw
+[    0.978929] vesafb: Truecolor: size=0:8:8:8, shift=0:16:8:0
+[    0.985309] vesafb: framebuffer at 0xc0000000, mapped to 0xffffc90013600000, using 8128k, total 8128k
+[    0.985450] Console: switching to colour frame buffer device 240x67
+[    0.985477] fb0: VESA VGA frame buffer device
+[    0.985578] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+[    0.985581] ACPI: Power Button [PWRB]
+[    0.985626] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+[    0.985627] ACPI: Power Button [PWRF]
+[    0.985693] ACPI: acpi_idle registered with cpuidle
+[    0.986119] GHES: HEST is not enabled!
+[    0.986234] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    1.006649] 00:08: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[    1.008480] Linux agpgart interface v0.103
+[    1.009934] brd: module loaded
+[    1.010669] loop: module loaded
+[    1.010890] libphy: Fixed MDIO Bus: probed
+[    1.010892] tun: Universal TUN/TAP device driver, 1.6
+[    1.010893] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    1.010944] PPP generic driver version 2.4.2
+[    1.010990] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.010995] ehci-pci: EHCI PCI platform driver
+[    1.011124] QUIRK: Enable AMD PLL fix
+[    1.011141] ehci-pci 0000:00:12.2: EHCI Host Controller
+[    1.011146] ehci-pci 0000:00:12.2: new USB bus registered, assigned bus number 1
+[    1.011149] ehci-pci 0000:00:12.2: applying AMD SB700/SB800/Hudson-2/3 EHCI dummy qh workaround
+[    1.011159] ehci-pci 0000:00:12.2: debug port 1
+[    1.011195] ehci-pci 0000:00:12.2: irq 17, io mem 0xfeb09000
+[    1.020307] ehci-pci 0000:00:12.2: USB 2.0 started, EHCI 1.00
+[    1.020426] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.020432] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.020450] usb usb1: Product: EHCI Host Controller
+[    1.020454] usb usb1: Manufacturer: Linux 3.16.0-53-generic ehci_hcd
+[    1.020455] usb usb1: SerialNumber: 0000:00:12.2
+[    1.020599] hub 1-0:1.0: USB hub found
+[    1.020606] hub 1-0:1.0: 5 ports detected
+[    1.020881] ehci-pci 0000:00:13.2: EHCI Host Controller
+[    1.020886] ehci-pci 0000:00:13.2: new USB bus registered, assigned bus number 2
+[    1.020889] ehci-pci 0000:00:13.2: applying AMD SB700/SB800/Hudson-2/3 EHCI dummy qh workaround
+[    1.020899] ehci-pci 0000:00:13.2: debug port 1
+[    1.020923] ehci-pci 0000:00:13.2: irq 17, io mem 0xfeb07000
+[    1.032290] ehci-pci 0000:00:13.2: USB 2.0 started, EHCI 1.00
+[    1.032339] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.032341] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.032343] usb usb2: Product: EHCI Host Controller
+[    1.032345] usb usb2: Manufacturer: Linux 3.16.0-53-generic ehci_hcd
+[    1.032346] usb usb2: SerialNumber: 0000:00:13.2
+[    1.032476] hub 2-0:1.0: USB hub found
+[    1.032481] hub 2-0:1.0: 5 ports detected
+[    1.032738] ehci-pci 0000:00:16.2: EHCI Host Controller
+[    1.032743] ehci-pci 0000:00:16.2: new USB bus registered, assigned bus number 3
+[    1.032746] ehci-pci 0000:00:16.2: applying AMD SB700/SB800/Hudson-2/3 EHCI dummy qh workaround
+[    1.032755] ehci-pci 0000:00:16.2: debug port 1
+[    1.032781] ehci-pci 0000:00:16.2: irq 17, io mem 0xfeb04000
+[    1.044290] ehci-pci 0000:00:16.2: USB 2.0 started, EHCI 1.00
+[    1.044397] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.044402] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.044406] usb usb3: Product: EHCI Host Controller
+[    1.044410] usb usb3: Manufacturer: Linux 3.16.0-53-generic ehci_hcd
+[    1.044414] usb usb3: SerialNumber: 0000:00:16.2
+[    1.044572] hub 3-0:1.0: USB hub found
+[    1.044578] hub 3-0:1.0: 4 ports detected
+[    1.044701] ehci-platform: EHCI generic platform driver
+[    1.044713] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    1.044716] ohci-pci: OHCI PCI platform driver
+[    1.044843] ohci-pci 0000:00:12.0: OHCI PCI host controller
+[    1.044847] ohci-pci 0000:00:12.0: new USB bus registered, assigned bus number 4
+[    1.044871] ohci-pci 0000:00:12.0: irq 18, io mem 0xfeb0a000
+[    1.104300] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001
+[    1.104303] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.104305] usb usb4: Product: OHCI PCI host controller
+[    1.104306] usb usb4: Manufacturer: Linux 3.16.0-53-generic ohci_hcd
+[    1.104308] usb usb4: SerialNumber: 0000:00:12.0
+[    1.104516] hub 4-0:1.0: USB hub found
+[    1.104525] hub 4-0:1.0: 5 ports detected
+[    1.104768] ohci-pci 0000:00:13.0: OHCI PCI host controller
+[    1.104772] ohci-pci 0000:00:13.0: new USB bus registered, assigned bus number 5
+[    1.104790] ohci-pci 0000:00:13.0: irq 18, io mem 0xfeb08000
+[    1.164283] usb usb5: New USB device found, idVendor=1d6b, idProduct=0001
+[    1.164286] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.164288] usb usb5: Product: OHCI PCI host controller
+[    1.164290] usb usb5: Manufacturer: Linux 3.16.0-53-generic ohci_hcd
+[    1.164291] usb usb5: SerialNumber: 0000:00:13.0
+[    1.164424] hub 5-0:1.0: USB hub found
+[    1.164431] hub 5-0:1.0: 5 ports detected
+[    1.164674] ohci-pci 0000:00:14.5: OHCI PCI host controller
+[    1.164679] ohci-pci 0000:00:14.5: new USB bus registered, assigned bus number 6
+[    1.164697] ohci-pci 0000:00:14.5: irq 18, io mem 0xfeb06000
+[    1.224283] usb usb6: New USB device found, idVendor=1d6b, idProduct=0001
+[    1.224285] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.224287] usb usb6: Product: OHCI PCI host controller
+[    1.224289] usb usb6: Manufacturer: Linux 3.16.0-53-generic ohci_hcd
+[    1.224290] usb usb6: SerialNumber: 0000:00:14.5
+[    1.224504] hub 6-0:1.0: USB hub found
+[    1.224511] hub 6-0:1.0: 2 ports detected
+[    1.224714] ohci-pci 0000:00:16.0: OHCI PCI host controller
+[    1.224719] ohci-pci 0000:00:16.0: new USB bus registered, assigned bus number 7
+[    1.224736] ohci-pci 0000:00:16.0: irq 18, io mem 0xfeb05000
+[    1.284267] usb usb7: New USB device found, idVendor=1d6b, idProduct=0001
+[    1.284270] usb usb7: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.284272] usb usb7: Product: OHCI PCI host controller
+[    1.284273] usb usb7: Manufacturer: Linux 3.16.0-53-generic ohci_hcd
+[    1.284274] usb usb7: SerialNumber: 0000:00:16.0
+[    1.284488] hub 7-0:1.0: USB hub found
+[    1.284496] hub 7-0:1.0: 4 ports detected
+[    1.284614] ohci-platform: OHCI generic platform driver
+[    1.284625] uhci_hcd: USB Universal Host Controller Interface driver
+[    1.284699] xhci_hcd 0000:02:00.0: xHCI Host Controller
+[    1.284705] xhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 8
+[    1.284800] xhci_hcd 0000:02:00.0: irq 72 for MSI/MSI-X
+[    1.284857] usb usb8: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.284859] usb usb8: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.284860] usb usb8: Product: xHCI Host Controller
+[    1.284862] usb usb8: Manufacturer: Linux 3.16.0-53-generic xhci_hcd
+[    1.284863] usb usb8: SerialNumber: 0000:02:00.0
+[    1.285015] hub 8-0:1.0: USB hub found
+[    1.285022] hub 8-0:1.0: 2 ports detected
+[    1.285108] xhci_hcd 0000:02:00.0: xHCI Host Controller
+[    1.285111] xhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 9
+[    1.285127] usb usb9: We don't know the algorithms for LPM for this host, disabling LPM.
+[    1.285145] usb usb9: New USB device found, idVendor=1d6b, idProduct=0003
+[    1.285147] usb usb9: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.285148] usb usb9: Product: xHCI Host Controller
+[    1.285150] usb usb9: Manufacturer: Linux 3.16.0-53-generic xhci_hcd
+[    1.285151] usb usb9: SerialNumber: 0000:02:00.0
+[    1.285257] hub 9-0:1.0: USB hub found
+[    1.285264] hub 9-0:1.0: 2 ports detected
+[    1.285389] i8042: PNP: No PS/2 controller found. Probing ports directly.
+[    1.288423] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    1.288429] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    1.288551] mousedev: PS/2 mouse device common for all mice
+[    1.288698] rtc_cmos 00:05: RTC can wake from S4
+[    1.288811] rtc_cmos 00:05: rtc core: registered rtc_cmos as rtc0
+[    1.288833] rtc_cmos 00:05: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+[    1.288908] device-mapper: uevent: version 1.0.3
+[    1.288982] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+[    1.288999] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.289089] TCP: cubic registered
+[    1.289214] NET: Registered protocol family 10
+[    1.289430] NET: Registered protocol family 17
+[    1.289448] Key type dns_resolver registered
+[    1.289836] Loading compiled-in X.509 certificates
+[    1.290704] Loaded X.509 cert 'Magrathea: Glacier signing key: eabdacaf3a4b5ec164b4ee226a09f9d1b2bceb6d'
+[    1.290717] registered taskstats version 1
+[    1.292637] Key type trusted registered
+[    1.295997] Key type encrypted registered
+[    1.296002] AppArmor: AppArmor sha1 policy hashing enabled
+[    1.296006] ima: No TPM chip found, activating TPM-bypass!
+[    1.296025] evm: HMAC attrs: 0x1
+[    1.296383]   Magic number: 11:703:953
+[    1.296422] memory memory6: hash matches
+[    1.296462] rtc_cmos 00:05: setting system clock to 2015-12-22 20:54:25 UTC (1450817665)
+[    1.296612] acpi-cpufreq: overriding BIOS provided _PSD data
+[    1.296784] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+[    1.296785] EDD information not available.
+[    1.296868] PM: Hibernation image not present or could not be loaded.
+[    1.297889] Freeing unused kernel memory: 1356K (ffffffff81d1c000 - ffffffff81e6f000)
+[    1.297890] Write protecting the kernel read-only data: 12288k
+[    1.299890] Freeing unused kernel memory: 548K (ffff880001777000 - ffff880001800000)
+[    1.301564] Freeing unused kernel memory: 480K (ffff880001b88000 - ffff880001c00000)
+[    1.313570] systemd-udevd[123]: starting version 204
+[    1.332137] usb 1-1: new high-speed USB device number 2 using ehci-pci
+[    1.333426] scsi0 : pata_atiixp
+[    1.333598] scsi1 : pata_atiixp
+[    1.333680] ata1: PATA max UDMA/100 cmd 0x1f0 ctl 0x3f6 bmdma 0xf000 irq 14
+[    1.333682] ata2: PATA max UDMA/100 cmd 0x170 ctl 0x376 bmdma 0xf008 irq 15
+[    1.333714] ahci 0000:00:11.0: version 3.0
+[    1.333950] ahci 0000:00:11.0: AHCI 0001.0200 32 slots 4 ports 6 Gbps 0xf impl SATA mode
+[    1.333954] ahci 0000:00:11.0: flags: 64bit ncq sntf ilck pm led clo pmp pio slum part sxs 
+[    1.334967] scsi2 : ahci
+[    1.335098] scsi3 : ahci
+[    1.335219] scsi4 : ahci
+[    1.335349] scsi5 : ahci
+[    1.335406] ata3: SATA max UDMA/133 abar m1024@0xfeb0b000 port 0xfeb0b100 irq 19
+[    1.335409] ata4: SATA max UDMA/133 abar m1024@0xfeb0b000 port 0xfeb0b180 irq 19
+[    1.335411] ata5: SATA max UDMA/133 abar m1024@0xfeb0b000 port 0xfeb0b200 irq 19
+[    1.335413] ata6: SATA max UDMA/133 abar m1024@0xfeb0b000 port 0xfeb0b280 irq 19
+[    1.341834] r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+[    1.341841] r8169 0000:05:00.0: can't disable ASPM; OS doesn't have ASPM control
+[    1.342050] r8169 0000:05:00.0: irq 73 for MSI/MSI-X
+[    1.342234] r8169 0000:05:00.0 eth0: RTL8168evl/8111evl at 0xffffc90003178000, bc:5f:f4:55:ec:1f, XID 0c900800 IRQ 73
+[    1.342236] r8169 0000:05:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+[    1.499397] ata1.00: HPA detected: current 488395055, native 488397168
+[    1.499402] ata1.00: ATA-7: ST3250410AS, 3.AAA, max UDMA/133
+[    1.499404] ata1.00: 488395055 sectors, multi 16: LBA48 NCQ (depth 0/32)
+[    1.499409] ata1.00: limited to UDMA/33 due to 40-wire cable
+[    1.502949] usb 1-1: New USB device found, idVendor=0c45, idProduct=6340
+[    1.502952] usb 1-1: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[    1.502954] usb 1-1: Product: USB 2.0 Camera
+[    1.502956] usb 1-1: Manufacturer: Sonix Technology Co., Ltd.
+[    1.512620] ata1.00: configured for UDMA/33
+[    1.512741] scsi 0:0:0:0: Direct-Access     ATA      ST3250410AS      A    PQ: 0 ANSI: 5
+[    1.512955] sd 0:0:0:0: [sda] 488395055 512-byte logical blocks: (250 GB/232 GiB)
+[    1.512992] sd 0:0:0:0: [sda] Write Protect is off
+[    1.512994] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    1.513007] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    1.513010] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    1.520992]  sda: sda1
+[    1.521195] sd 0:0:0:0: [sda] Attached SCSI disk
+[    1.652240] ata4: SATA link down (SStatus 0 SControl 300)
+[    1.824135] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    1.824167] ata5: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[    1.824199] ata6: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    1.825422] ata3.00: ATA-8: HGST HTS545050A7E680, GR2OA230, max UDMA/133
+[    1.825426] ata3.00: 976773168 sectors, multi 16: LBA48 NCQ (depth 31/32), AA
+[    1.825608] ata6.00: ATA-8: WDC WD1002FAEX-00Z3A0, 05.01D05, max UDMA/133
+[    1.825610] ata6.00: 1953525168 sectors, multi 16: LBA48 NCQ (depth 31/32), AA
+[    1.826634] ata3.00: configured for UDMA/133
+[    1.826728] scsi 2:0:0:0: Direct-Access     ATA      HGST HTS545050A7 A230 PQ: 0 ANSI: 5
+[    1.826934] sd 2:0:0:0: [sdb] 976773168 512-byte logical blocks: (500 GB/465 GiB)
+[    1.826937] sd 2:0:0:0: [sdb] 4096-byte physical blocks
+[    1.826973] sd 2:0:0:0: Attached scsi generic sg1 type 0
+[    1.827036] sd 2:0:0:0: [sdb] Write Protect is off
+[    1.827039] sd 2:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+[    1.827077] sd 2:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    1.827106] ata6.00: configured for UDMA/133
+[    1.827418] ata5.00: ATAPI: PIONEER BD-RW   BDR-S08, 1.10, max UDMA/100
+[    1.830964] ata5.00: configured for UDMA/100
+[    1.842474] scsi 4:0:0:0: CD-ROM            PIONEER  BD-RW   BDR-S08  1.10 PQ: 0 ANSI: 5
+[    1.852466]  sdb: sdb1 sdb2 sdb3
+[    1.852879] sd 2:0:0:0: [sdb] Attached SCSI disk
+[    1.876660] sr0: scsi3-mmc drive: 125x/125x writer dvd-ram cd/rw xa/form2 cdda tray
+[    1.876666] cdrom: Uniform CD-ROM driver Revision: 3.20
+[    1.876870] sr 4:0:0:0: Attached scsi CD-ROM sr0
+[    1.876952] sr 4:0:0:0: Attached scsi generic sg2 type 5
+[    1.877107] scsi 5:0:0:0: Direct-Access     ATA      WDC WD1002FAEX-0 1D05 PQ: 0 ANSI: 5
+[    1.877311] sd 5:0:0:0: [sdc] 1953525168 512-byte logical blocks: (1.00 TB/931 GiB)
+[    1.877360] sd 5:0:0:0: Attached scsi generic sg3 type 0
+[    1.877404] sd 5:0:0:0: [sdc] Write Protect is off
+[    1.877407] sd 5:0:0:0: [sdc] Mode Sense: 00 3a 00 00
+[    1.877448] sd 5:0:0:0: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    1.913906]  sdc: sdc1 sdc2 < sdc5 sdc6 >
+[    1.914340] sd 5:0:0:0: [sdc] Attached SCSI disk
+[    1.972079] tsc: Refined TSC clocksource calibration: 3592.191 MHz
+[    2.027982] usb 7-1: new full-speed USB device number 2 using ohci-pci
+[    2.201257] usb 7-1: New USB device found, idVendor=046d, idProduct=c52b
+[    2.201264] usb 7-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.201269] usb 7-1: Product: USB Receiver
+[    2.201273] usb 7-1: Manufacturer: Logitech
+[    2.208487] hidraw: raw HID events driver (C) Jiri Kosina
+[    2.222345] usbcore: registered new interface driver usbhid
+[    2.222351] usbhid: USB HID core driver
+[    2.228245] logitech-djreceiver 0003:046D:C52B.0003: hiddev0,hidraw0: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:00:16.0-1/input2
+[    2.286634] input: Logitech Unifying Device. Wireless PID:4003 as /devices/pci0000:00/0000:00:16.0/usb7/7-1/7-1:1.2/0003:046D:C52B.0003/0003:046D:C52B.0004/input/input5
+[    2.286722] logitech-djdevice 0003:046D:C52B.0004: input,hidraw1: USB HID v1.11 Keyboard [Logitech Unifying Device. Wireless PID:4003] on usb-0000:00:16.0-1:2
+[    2.316012] usb 8-1: new full-speed USB device number 2 using xhci_hcd
+[    2.481872] usb 8-1: New USB device found, idVendor=1b1c, idProduct=1b0c
+[    2.481879] usb 8-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.481884] usb 8-1: Product: Corsair M30 Gaming Mouse
+[    2.481888] usb 8-1: Manufacturer: Corsair
+[    2.498900] input: Corsair Corsair M30 Gaming Mouse as /devices/pci0000:00/0000:00:09.0/0000:02:00.0/usb8/8-1/8-1:1.0/0003:1B1C:1B0C.0005/input/input6
+[    2.499055] hid-generic 0003:1B1C:1B0C.0005: input,hidraw2: USB HID v1.00 Mouse [Corsair Corsair M30 Gaming Mouse] on usb-0000:02:00.0-1/input0
+[    2.972030] Switched to clocksource tsc
+[    3.104976] random: nonblocking pool is initialized
+[    4.304193] EXT4-fs (sdc6): mounted filesystem with ordered data mode. Opts: (null)
+[    5.219006] init: plymouth-upstart-bridge main process (202) terminated with status 1
+[    5.219017] init: plymouth-upstart-bridge main process ended, respawning
+[    5.221164] init: plymouth-upstart-bridge main process (214) terminated with status 1
+[    5.221175] init: plymouth-upstart-bridge main process ended, respawning
+[    5.222890] init: plymouth-upstart-bridge main process (216) terminated with status 1
+[    5.222899] init: plymouth-upstart-bridge main process ended, respawning
+[    5.224911] init: plymouth-upstart-bridge main process (217) terminated with status 1
+[    5.224920] init: plymouth-upstart-bridge main process ended, respawning
+[    5.226555] init: plymouth-upstart-bridge main process (219) terminated with status 1
+[    5.226564] init: plymouth-upstart-bridge main process ended, respawning
+[    5.228686] init: plymouth-upstart-bridge main process (220) terminated with status 1
+[    5.228696] init: plymouth-upstart-bridge main process ended, respawning
+[    5.230975] init: plymouth-upstart-bridge main process (222) terminated with status 1
+[    5.230984] init: plymouth-upstart-bridge main process ended, respawning
+[    5.233221] init: plymouth-upstart-bridge main process (224) terminated with status 1
+[    5.233232] init: plymouth-upstart-bridge main process ended, respawning
+[    5.234868] init: plymouth-upstart-bridge main process (226) terminated with status 1
+[    5.234878] init: plymouth-upstart-bridge main process ended, respawning
+[    5.236890] init: plymouth-upstart-bridge main process (227) terminated with status 1
+[    5.236899] init: plymouth-upstart-bridge main process ended, respawning
+[    5.238550] init: plymouth-upstart-bridge main process (229) terminated with status 1
+[    5.238559] init: plymouth-upstart-bridge respawning too fast, stopped
+[   11.827952] Adding 19529724k swap on /dev/sdc5.  Priority:-1 extents:1 across:19529724k FS
+[   11.983933] systemd-udevd[330]: starting version 204
+[   12.061116] lp: driver loaded but no devices found
+[   12.066911] ppdev: user-space parallel port driver
+[   12.144547] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[   12.160494] [drm] Initialized drm 1.1.0 20060810
+[   12.164918] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xb00, revision 0
+[   12.164972] piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xb20
+[   12.199301] snd_hda_intel 0000:01:00.1: Handle VGA-switcheroo audio client
+[   12.199305] snd_hda_intel 0000:01:00.1: Force to non-snoop mode
+[   12.199822] snd_hda_intel 0000:01:00.1: irq 74 for MSI/MSI-X
+[   12.207513] MCE: In-kernel MCE decoding enabled.
+[   12.209556] EDAC MC: Ver: 3.0.0
+[   12.211208] AMD64 EDAC driver v3.4.0
+[   12.211238] EDAC amd64: DRAM ECC disabled.
+[   12.211247] EDAC amd64: ECC disabled in the BIOS or no ECC capability, module will not load.
+[   12.211247]  Either enable ECC checking or force module loading by setting 'ecc_enable_override'.
+[   12.211247]  (Note that use of the override may cause unknown side effects.)
+[   12.211458] input: HDA ATI HDMI HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:02.0/0000:01:00.1/sound/card1/input7
+[   12.211542] input: HDA ATI HDMI HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:02.0/0000:01:00.1/sound/card1/input8
+[   12.211640] input: HDA ATI HDMI HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:02.0/0000:01:00.1/sound/card1/input9
+[   12.211761] input: HDA ATI HDMI HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:02.0/0000:01:00.1/sound/card1/input10
+[   12.211853] input: HDA ATI HDMI HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:02.0/0000:01:00.1/sound/card1/input11
+[   12.211956] input: HDA ATI HDMI HDMI/DP,pcm=11 as /devices/pci0000:00/0000:00:02.0/0000:01:00.1/sound/card1/input12
+[   12.217551] sound hdaudioC0D0: autoconfig: line_outs=4 (0x14/0x15/0x16/0x17/0x0) type:line
+[   12.217555] sound hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   12.217558] sound hdaudioC0D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+[   12.217560] sound hdaudioC0D0:    mono: mono_out=0x0
+[   12.217562] sound hdaudioC0D0:    dig-out=0x1e/0x0
+[   12.217563] sound hdaudioC0D0:    inputs:
+[   12.217566] sound hdaudioC0D0:      Front Mic=0x19
+[   12.217568] sound hdaudioC0D0:      Rear Mic=0x18
+[   12.217569] sound hdaudioC0D0:      Line=0x1a
+[   12.238490] input: HDA ATI SB Rear Mic as /devices/pci0000:00/0000:00:14.2/sound/card0/input13
+[   12.238563] input: HDA ATI SB Line as /devices/pci0000:00/0000:00:14.2/sound/card0/input14
+[   12.238632] input: HDA ATI SB Line Out Front as /devices/pci0000:00/0000:00:14.2/sound/card0/input15
+[   12.238713] input: HDA ATI SB Line Out Surround as /devices/pci0000:00/0000:00:14.2/sound/card0/input16
+[   12.238783] input: HDA ATI SB Line Out CLFE as /devices/pci0000:00/0000:00:14.2/sound/card0/input17
+[   12.238853] input: HDA ATI SB Line Out Side as /devices/pci0000:00/0000:00:14.2/sound/card0/input18
+[   12.245404] AVX version of gcm_enc/dec engaged.
+[   12.253442] [drm] radeon kernel modesetting enabled.
+[   12.253502] checking generic (c0000000 7f0000) vs hw (c0000000 10000000)
+[   12.253504] fb: switching to radeondrmfb from VESA VGA
+[   12.253527] Console: switching to colour dummy device 80x25
+[   12.254616] [drm] initializing kernel modesetting (TAHITI 0x1002:0x6798 0x1462:0x2775).
+[   12.254629] [drm] register mmio base: 0xFEA00000
+[   12.254630] [drm] register mmio size: 262144
+[   12.254655] radeon 0000:01:00.0: Invalid ROM contents
+[   12.254698] ATOM BIOS: 113
+[   12.254739] [drm] Changing default dispclk from 500Mhz to 600Mhz
+[   12.254758] radeon 0000:01:00.0: VRAM: 3072M 0x0000000000000000 - 0x00000000BFFFFFFF (3072M used)
+[   12.254761] radeon 0000:01:00.0: GTT: 1024M 0x00000000C0000000 - 0x00000000FFFFFFFF
+[   12.254763] [drm] Detected VRAM RAM=3072M, BAR=256M
+[   12.254765] [drm] RAM width 384bits DDR
+[   12.254990] [TTM] Zone  kernel: Available graphics memory: 16464292 kiB
+[   12.254991] [TTM] Zone   dma32: Available graphics memory: 2097152 kiB
+[   12.254993] [TTM] Initializing pool allocator
+[   12.254998] [TTM] Initializing DMA pool allocator
+[   12.255018] [drm] radeon: 3072M of VRAM memory ready
+[   12.255020] [drm] radeon: 1024M of GTT memory ready.
+[   12.255032] [drm] Loading TAHITI Microcode
+[   12.284824] kvm: Nested Virtualization enabled
+[   12.284829] kvm: Nested Paging enabled
+[   12.347297] audit: type=1400 audit(1450806876.549:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=430 comm="apparmor_parser"
+[   12.347302] audit: type=1400 audit(1450806876.549:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=430 comm="apparmor_parser"
+[   12.347307] audit: type=1400 audit(1450806876.549:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=430 comm="apparmor_parser"
+[   12.347887] audit: type=1400 audit(1450806876.549:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=430 comm="apparmor_parser"
+[   12.347892] audit: type=1400 audit(1450806876.549:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=430 comm="apparmor_parser"
+[   12.348181] audit: type=1400 audit(1450806876.549:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=430 comm="apparmor_parser"
+[   12.349912] audit: type=1400 audit(1450806876.553:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=440 comm="apparmor_parser"
+[   12.349920] audit: type=1400 audit(1450806876.553:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=440 comm="apparmor_parser"
+[   12.349925] audit: type=1400 audit(1450806876.553:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=440 comm="apparmor_parser"
+[   12.350513] audit: type=1400 audit(1450806876.553:11): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=440 comm="apparmor_parser"
+[   12.592736] media: Linux media interface: v0.10
+[   12.597006] Linux video capture interface: v2.00
+[   12.609186] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   12.627549] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (0c45:6340)
+[   12.627564] usbcore: registered new interface driver snd-usb-audio
+[   12.640854] input: USB 2.0 Camera as /devices/pci0000:00/0000:00:12.2/usb1/1-1/1-1:1.0/input/input19
+[   12.640948] usbcore: registered new interface driver uvcvideo
+[   12.640949] USB Video Class driver (1.1.1)
+[   12.660030] [drm] radeon/TAHITI_mc2.bin: 31232 bytes
+[   12.675054] [drm] Internal thermal controller with fan control
+[   12.675194] [drm] probing gen 2 caps for device 1002:5a16 = 31cd02/0
+[   12.680718] [drm] radeon: dpm initialized
+[   12.776291] [drm] GART: num cpu pages 262144, num gpu pages 262144
+[   12.777383] [drm] probing gen 2 caps for device 1002:5a16 = 31cd02/0
+[   12.777387] [drm] PCIE gen 2 link speeds already enabled
+[   12.789132] [drm] PCIE GART of 1024M enabled (table at 0x0000000000276000).
+[   12.789237] radeon 0000:01:00.0: WB enabled
+[   12.789240] radeon 0000:01:00.0: fence driver on ring 0 use gpu addr 0x00000000c0000c00 and cpu addr 0xffff88080445ec00
+[   12.789242] radeon 0000:01:00.0: fence driver on ring 1 use gpu addr 0x00000000c0000c04 and cpu addr 0xffff88080445ec04
+[   12.789244] radeon 0000:01:00.0: fence driver on ring 2 use gpu addr 0x00000000c0000c08 and cpu addr 0xffff88080445ec08
+[   12.789245] radeon 0000:01:00.0: fence driver on ring 3 use gpu addr 0x00000000c0000c0c and cpu addr 0xffff88080445ec0c
+[   12.789247] radeon 0000:01:00.0: fence driver on ring 4 use gpu addr 0x00000000c0000c10 and cpu addr 0xffff88080445ec10
+[   12.789636] radeon 0000:01:00.0: fence driver on ring 5 use gpu addr 0x0000000000075a18 and cpu addr 0xffffc900137b5a18
+[   12.789659] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[   12.789661] [drm] Driver supports precise vblank timestamp query.
+[   12.789663] radeon 0000:01:00.0: radeon: MSI limited to 32-bit
+[   12.789686] radeon 0000:01:00.0: irq 75 for MSI/MSI-X
+[   12.789697] radeon 0000:01:00.0: radeon: using MSI.
+[   12.789730] [drm] radeon: irq initialized.
+[   12.957433] [drm] ring test on 0 succeeded in 1 usecs
+[   12.957439] [drm] ring test on 1 succeeded in 1 usecs
+[   12.957443] [drm] ring test on 2 succeeded in 1 usecs
+[   12.957450] [drm] ring test on 3 succeeded in 3 usecs
+[   12.957455] [drm] ring test on 4 succeeded in 3 usecs
+[   13.152985] [drm] ring test on 5 succeeded in 1 usecs
+[   13.152991] [drm] UVD initialized successfully.
+[   13.153125] [drm] ib test on ring 0 succeeded in 0 usecs
+[   13.153145] [drm] ib test on ring 1 succeeded in 0 usecs
+[   13.153164] [drm] ib test on ring 2 succeeded in 0 usecs
+[   13.153182] [drm] ib test on ring 3 succeeded in 0 usecs
+[   13.153200] [drm] ib test on ring 4 succeeded in 0 usecs
+[   13.323566] [drm] ib test on ring 5 succeeded
+[   13.324350] [drm] Radeon Display Connectors
+[   13.324352] [drm] Connector 0:
+[   13.324353] [drm]   DP-1
+[   13.324355] [drm]   HPD5
+[   13.324357] [drm]   DDC: 0x6530 0x6530 0x6534 0x6534 0x6538 0x6538 0x653c 0x653c
+[   13.324358] [drm]   Encoders:
+[   13.324359] [drm]     DFP1: INTERNAL_UNIPHY2
+[   13.324360] [drm] Connector 1:
+[   13.324361] [drm]   DP-2
+[   13.324362] [drm]   HPD4
+[   13.324363] [drm]   DDC: 0x6540 0x6540 0x6544 0x6544 0x6548 0x6548 0x654c 0x654c
+[   13.324364] [drm]   Encoders:
+[   13.324365] [drm]     DFP2: INTERNAL_UNIPHY2
+[   13.324366] [drm] Connector 2:
+[   13.324367] [drm]   HDMI-A-1
+[   13.324367] [drm]   HPD1
+[   13.324369] [drm]   DDC: 0x6560 0x6560 0x6564 0x6564 0x6568 0x6568 0x656c 0x656c
+[   13.324369] [drm]   Encoders:
+[   13.324370] [drm]     DFP3: INTERNAL_UNIPHY1
+[   13.324371] [drm] Connector 3:
+[   13.324372] [drm]   DVI-I-1
+[   13.324372] [drm]   HPD3
+[   13.324374] [drm]   DDC: 0x6580 0x6580 0x6584 0x6584 0x6588 0x6588 0x658c 0x658c
+[   13.324374] [drm]   Encoders:
+[   13.324375] [drm]     DFP4: INTERNAL_UNIPHY
+[   13.324376] [drm]     CRT1: INTERNAL_KLDSCP_DAC1
+[   13.372630] [drm] fb mappable at 0xC0478000
+[   13.372632] [drm] vram apper at 0xC0000000
+[   13.372633] [drm] size 8294400
+[   13.372634] [drm] fb depth is 24
+[   13.372635] [drm]    pitch is 7680
+[   13.372797] fbcon: radeondrmfb (fb0) is primary device
+[   13.372885] Console: switching to colour frame buffer device 240x67
+[   13.372913] radeon 0000:01:00.0: fb0: radeondrmfb frame buffer device
+[   13.372915] radeon 0000:01:00.0: registered panic notifier
+[   13.381708] [drm] Initialized radeon 2.39.0 20080528 for 0000:01:00.0 on minor 0
+[   14.365546] EXT4-fs (sdc6): re-mounted. Opts: errors=remount-ro
+[   14.719827] init: failsafe main process (662) killed by TERM signal
+[   14.986344] Bluetooth: Core ver 2.19
+[   14.986366] NET: Registered protocol family 31
+[   14.986368] Bluetooth: HCI device and connection manager initialized
+[   14.986375] Bluetooth: HCI socket layer initialized
+[   14.986378] Bluetooth: L2CAP socket layer initialized
+[   14.986387] Bluetooth: SCO socket layer initialized
+[   14.989803] Bluetooth: RFCOMM TTY layer initialized
+[   14.989810] Bluetooth: RFCOMM socket layer initialized
+[   14.989815] Bluetooth: RFCOMM ver 1.11
+[   14.990151] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   14.990154] Bluetooth: BNEP filters: protocol multicast
+[   14.990162] Bluetooth: BNEP socket layer initialized
+[   15.243931] init: cups main process (740) killed by HUP signal
+[   15.243941] init: cups main process ended, respawning
+[   16.298969] r8169 0000:05:00.0 eth0: link down
+[   16.298985] r8169 0000:05:00.0 eth0: link down
+[   16.299025] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   21.082373] r8169 0000:05:00.0 eth0: link up
+[   21.082382] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   21.918119] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   21.921236] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   21.935232] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   21.938245] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   45.133443] audit_printk_skb: 168 callbacks suppressed
+[   45.133446] audit: type=1400 audit(1450806910.279:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=1728 comm="apparmor_parser"
+[   45.133454] audit: type=1400 audit(1450806910.279:69): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=1728 comm="apparmor_parser"
+[   45.133947] audit: type=1400 audit(1450806910.279:70): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=1728 comm="apparmor_parser"
+[  236.050813] usb 1-1: 3:1: cannot get freq at ep 0x84
+[  236.053814] usb 1-1: 3:1: cannot get freq at ep 0x84
+[  236.071939] usb 1-1: 3:1: cannot get freq at ep 0x84
+[  236.074937] usb 1-1: 3:1: cannot get freq at ep 0x84
+[  369.696669] audit: type=1400 audit(1450807234.915:71): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=2715 comm="apparmor_parser"
+[  369.696679] audit: type=1400 audit(1450807234.915:72): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2715 comm="apparmor_parser"
+[  369.697255] audit: type=1400 audit(1450807234.915:73): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2715 comm="apparmor_parser"
+[ 3042.912164] systemd-hostnamed[3105]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+
