@@ -1,0 +1,49 @@
+[   13.324376] [drm]     CRT1: INTERNAL_KLDSCP_DAC1
+[   13.372630] [drm] fb mappable at 0xC0478000
+[   13.372632] [drm] vram apper at 0xC0000000
+[   13.372633] [drm] size 8294400
+[   13.372634] [drm] fb depth is 24
+[   13.372635] [drm]    pitch is 7680
+[   13.372797] fbcon: radeondrmfb (fb0) is primary device
+[   13.372885] Console: switching to colour frame buffer device 240x67
+[   13.372913] radeon 0000:01:00.0: fb0: radeondrmfb frame buffer device
+[   13.372915] radeon 0000:01:00.0: registered panic notifier
+[   13.381708] [drm] Initialized radeon 2.39.0 20080528 for 0000:01:00.0 on minor 0
+[   14.365546] EXT4-fs (sdc6): re-mounted. Opts: errors=remount-ro
+[   14.719827] init: failsafe main process (662) killed by TERM signal
+[   14.986344] Bluetooth: Core ver 2.19
+[   14.986366] NET: Registered protocol family 31
+[   14.986368] Bluetooth: HCI device and connection manager initialized
+[   14.986375] Bluetooth: HCI socket layer initialized
+[   14.986378] Bluetooth: L2CAP socket layer initialized
+[   14.986387] Bluetooth: SCO socket layer initialized
+[   14.989803] Bluetooth: RFCOMM TTY layer initialized
+[   14.989810] Bluetooth: RFCOMM socket layer initialized
+[   14.989815] Bluetooth: RFCOMM ver 1.11
+[   14.990151] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   14.990154] Bluetooth: BNEP filters: protocol multicast
+[   14.990162] Bluetooth: BNEP socket layer initialized
+[   15.243931] init: cups main process (740) killed by HUP signal
+[   15.243941] init: cups main process ended, respawning
+[   16.298969] r8169 0000:05:00.0 eth0: link down
+[   16.298985] r8169 0000:05:00.0 eth0: link down
+[   16.299025] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   21.082373] r8169 0000:05:00.0 eth0: link up
+[   21.082382] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   21.918119] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   21.921236] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   21.935232] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   21.938245] usb 1-1: 3:1: cannot get freq at ep 0x84
+[   45.133443] audit_printk_skb: 168 callbacks suppressed
+[   45.133446] audit: type=1400 audit(1450806910.279:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=1728 comm="apparmor_parser"
+[   45.133454] audit: type=1400 audit(1450806910.279:69): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=1728 comm="apparmor_parser"
+[   45.133947] audit: type=1400 audit(1450806910.279:70): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=1728 comm="apparmor_parser"
+[  236.050813] usb 1-1: 3:1: cannot get freq at ep 0x84
+[  236.053814] usb 1-1: 3:1: cannot get freq at ep 0x84
+[  236.071939] usb 1-1: 3:1: cannot get freq at ep 0x84
+[  236.074937] usb 1-1: 3:1: cannot get freq at ep 0x84
+[  369.696669] audit: type=1400 audit(1450807234.915:71): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=2715 comm="apparmor_parser"
+[  369.696679] audit: type=1400 audit(1450807234.915:72): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2715 comm="apparmor_parser"
+[  369.697255] audit: type=1400 audit(1450807234.915:73): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2715 comm="apparmor_parser"
+[ 3042.912164] systemd-hostnamed[3105]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+[ 9787.232505] systemd-hostnamed[7972]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!

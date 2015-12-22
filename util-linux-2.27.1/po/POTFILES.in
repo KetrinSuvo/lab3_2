@@ -84,6 +84,7 @@ include/widechar.h
 include/xalloc.h
 lib/at.c
 lib/blkdev.c
+libblkid/src/blkid.h
 libblkid/src/blkidP.h
 libblkid/src/cache.c
 libblkid/src/config.c
@@ -193,6 +194,7 @@ libfdisk/src/gpt.c
 libfdisk/src/init.c
 libfdisk/src/iter.c
 libfdisk/src/label.c
+libfdisk/src/libfdisk.h
 libfdisk/src/partition.c
 libfdisk/src/parttype.c
 libfdisk/src/script.c
@@ -225,6 +227,7 @@ libmount/src/context_umount.c
 libmount/src/fs.c
 libmount/src/init.c
 libmount/src/iter.c
+libmount/src/libmount.h
 libmount/src/lock.c
 libmount/src/monitor.c
 libmount/src/mountP.h
@@ -246,6 +249,7 @@ libsmartcols/src/cell.c
 libsmartcols/src/column.c
 libsmartcols/src/init.c
 libsmartcols/src/iter.c
+libsmartcols/src/libsmartcols.h
 libsmartcols/src/line.c
 libsmartcols/src/smartcolsP.h
 libsmartcols/src/symbols.c
@@ -321,6 +325,10 @@ misc-utils/uuidd.c
 misc-utils/uuidgen.c
 misc-utils/whereis.c
 misc-utils/wipefs.c
+.pc/Disable-the-fallback-clause-in-hwclock-when-dev-rtc-.patch/sys-utils/hwclock.c
+.pc/man-page-tweaks-cleanup-my_dev_t.h-ancient-stuff.patch/mount/my_dev_t.h
+.pc/sulogin-fallback-static-sh.patch/login-utils/sulogin.c
+.pc/sulogin-lockedpwd.patch/login-utils/sulogin.c
 schedutils/chrt.c
 schedutils/ionice.c
 schedutils/taskset.c

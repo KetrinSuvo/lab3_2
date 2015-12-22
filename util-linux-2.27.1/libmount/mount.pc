@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libexecdir=/usr/libexec
+libdir=/usr/libexec
+includedir=/usr/include
+
+Name: mount
+Description: mount library
+Version: 2.27.0
+Requires.private: blkid
+Cflags: -I${includedir}/libmount
+Libs: -L${libdir} -lmount

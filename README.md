@@ -21,4 +21,34 @@ ______________________________________________________
 Репозиторий разработчиков пакета В
 http://packages.ubuntu.com/precise/utils/util-linux
 
+Проверка пакетов, необходимых для сборки
+Packages needed:
+  libmagic1:amd64
+  python2.7-minimal
+  libpopt0:amd64
+  libpython2.7-minimal:amd64
+  libunistring0:amd64
+  python-zope.interface
+  libfakeroot:amd64
+  cpio
+  libtinfo-dev:amd64
+  python-gobject-2
+  libcroco3:amd64
+  bash-completion
+  libglib2.0-0:amd64
+  libxml2:amd64
+  pkg-config
+  mawk
+  file
+  python-ubuntu-sso-client
+  libpython2.7-stdlib:amd64
+  python-minimal
+  libncurses5-dev:amd64
+  libgl1-mesa-glx-lts-utopic:amd64
+  mime-support
+  gettext
+  python-imaging
+  libegl1-mesa-lts-utopic:amd64
+
+
 
